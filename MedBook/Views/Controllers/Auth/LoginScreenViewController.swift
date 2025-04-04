@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  LoginScreenViewController.swift
 //  MedBook
 //
-//  Created by Soubhagya on 05/04/25.
+//  Created by Soubhagya on 04/04/25.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-
 }
-
