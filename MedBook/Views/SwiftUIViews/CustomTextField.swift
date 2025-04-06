@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct CustomTextField: View {
     let placeholder: String
     @Binding var text: String
@@ -18,7 +19,7 @@ struct CustomTextField: View {
             SecureField(placeholder, text: $text)
                 .padding()
                 .background(Color(.systemGray6))
-                .cornerRadius(5)
+                .cornerRadius(10)
                 .foregroundStyle(Color.textColor)
                 .font(.poppins(.regular, size: 14))
                 .overlay(
@@ -27,6 +28,7 @@ struct CustomTextField: View {
                 )
                 .focused($isFocused)
                 .animation(.easeInOut(duration: 0.2), value: isFocused)
+                .keyboardType(.default)
         } else {
             TextField(placeholder, text: $text)
                 .padding()
@@ -40,6 +42,8 @@ struct CustomTextField: View {
                 )
                 .focused($isFocused)
                 .animation(.easeInOut(duration: 0.2), value: isFocused)
+                .autocapitalization(.none)
+                .keyboardType(.emailAddress)
         }
     }
 }

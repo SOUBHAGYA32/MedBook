@@ -6,24 +6,42 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SignupScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.backgroundColor
+        self.navigationController?.navigationBar.isHidden = true
+        let signupView = UIHostingController(rootView: SignupView(onSignupSuccess: {
+            self.handleSignupSccess()
+        }, onLoginTapped: {
+            self.handleLogin()
+        }, onBackTapped: {
+            self.navigationController?.popViewController(animated: true)
+        }))
+        addChild(signupView)
+        signupView.view.frame = view.bounds
+        view.addSubview(signupView.view)
+        signupView.didMove(toParent: self)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //Login Success
+    private func handleSignupSccess(){
+        let tabBarController = MainTabBarController()
+        tabBarController.selectedIndex = 0
+        if let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate,
+           let window = sceneDelegate.window {
+            window.rootViewController = tabBarController
+            window.makeKeyAndVisible()
+        }
     }
-    */
-
+    
+    private func handleLogin() {
+        let loginVC = LoginScreenViewController()
+        loginVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(loginVC, animated: true)
+    }
 }

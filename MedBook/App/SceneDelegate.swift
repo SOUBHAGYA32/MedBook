@@ -15,7 +15,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let scene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: scene)
-    window?.rootViewController =  UINavigationController(rootViewController: LandingScreenViewController())
+    let isLoggedIn = UserDefaults.standard.bool(forKey: UserDefaultsKeys.isLoggedIn)
+    if isLoggedIn {
+          window?.rootViewController = MainTabBarController()
+    } else {
+        window?.rootViewController = UINavigationController(rootViewController: LandingScreenViewController())
+    }
     window?.makeKeyAndVisible()
   }
 

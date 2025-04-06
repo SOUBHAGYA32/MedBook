@@ -9,6 +9,8 @@ import UIKit
 import SwiftUI
 
 class LandingScreenViewController: UIViewController {
+    
+    private let viewModel = OnboardingViewModel.shared
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,10 +31,14 @@ class LandingScreenViewController: UIViewController {
     }
     
     private func handleLogin() {
-        print("Login button tapped - Navigate to Login Screen")
+        let loginVC = LoginScreenViewController()
+        loginVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     private func handleRegister() {
-        print("Register button tapped - Navigate to Register Screen")
+        let signupVC = SignupScreenViewController()
+        signupVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(signupVC, animated: true)
     }
 }

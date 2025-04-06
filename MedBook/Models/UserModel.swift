@@ -6,17 +6,18 @@
 //
 
 import Foundation
-import FirebaseFirestore
 
-struct UserModel : Codable {
-  @DocumentID public var id: String?
-  public var email: String
-  public var country: String
-  public var createdAt: Date
+
+// View model user struct
+struct UserModel {
+    var id: UUID
+    var email: String
+    var country: String
+    var password: String
 }
 
+// Credentials struct
 struct AuthCredentials {
-  let email: String
-  let password: String
-  let country: String
+    var email: String
+    var password: String
 }

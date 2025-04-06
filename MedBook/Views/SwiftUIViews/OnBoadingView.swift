@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct OnBoadingView: View {
-    
     //Actions for Button  Taps
     var onLoginTapped: () -> Void
     var onRegisterTapped: () -> Void

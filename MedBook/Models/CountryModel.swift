@@ -34,7 +34,8 @@ struct CountryInfo: Decodable {
     let region: String
 }
 
-struct CountryModel {
+struct CountryModel : Identifiable, Hashable {
+    var id: String { code }
     let code: String
     let name: String
 }

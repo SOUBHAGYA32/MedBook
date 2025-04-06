@@ -7,25 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE8D60E82DA06720001E5399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D60E72DA06720001E5399 /* AppDelegate.swift */; };
-		DE8D60EA2DA06720001E5399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D60E92DA06720001E5399 /* SceneDelegate.swift */; };
-		DE8D60EC2DA06720001E5399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D60EB2DA06720001E5399 /* ViewController.swift */; };
-		DE8D60EF2DA06720001E5399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8D60ED2DA06720001E5399 /* Main.storyboard */; };
+		934861094DAAB3F240FEB060 /* Pods_MedBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C43129EED409B5CF84D0C2 /* Pods_MedBook.framework */; };
 		DE8D60F22DA06720001E5399 /* MedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8D60F02DA06720001E5399 /* MedBook.xcdatamodeld */; };
-		DE8D60F42DA06722001E5399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8D60F32DA06722001E5399 /* Assets.xcassets */; };
-		DE8D60F72DA06722001E5399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8D60F52DA06722001E5399 /* LaunchScreen.storyboard */; };
+		DE8D61012DA06734001E5399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D60FF2DA06734001E5399 /* AppDelegate.swift */; };
+		DE8D61022DA06734001E5399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61002DA06734001E5399 /* SceneDelegate.swift */; };
+		DE8D610B2DA06746001E5399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61042DA06746001E5399 /* Assets.xcassets */; };
+		DE8D610C2DA06746001E5399 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61062DA06746001E5399 /* Poppins-Medium.ttf */; };
+		DE8D610D2DA06746001E5399 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61072DA06746001E5399 /* Poppins-ExtraBold.ttf */; };
+		DE8D610E2DA06746001E5399 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61082DA06746001E5399 /* Poppins-Regular.ttf */; };
+		DE8D610F2DA06746001E5399 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61092DA06746001E5399 /* Poppins-Bold.ttf */; };
+		DE8D61102DA06746001E5399 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE8D610A2DA06746001E5399 /* Poppins-SemiBold.ttf */; };
+		DE8D61152DA06754001E5399 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61122DA06754001E5399 /* UIFont+Extension.swift */; };
+		DE8D61162DA06754001E5399 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61132DA06754001E5399 /* UIColor+Extension.swift */; };
+		DE8D61172DA06754001E5399 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61142DA06754001E5399 /* UIView+Extension.swift */; };
+		DE8D611A2DA0675E001E5399 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61192DA0675E001E5399 /* APIManager.swift */; };
+		DE8D611E2DA06768001E5399 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D611C2DA06768001E5399 /* CountryModel.swift */; };
+		DE8D611F2DA06768001E5399 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D611D2DA06768001E5399 /* UserModel.swift */; };
+		DE8D61232DA06776001E5399 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61222DA06776001E5399 /* Utility.swift */; };
+		DE8D613A2DA067A6001E5399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8D612B2DA067A6001E5399 /* Main.storyboard */; };
+		DE8D613B2DA067A6001E5399 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D612E2DA067A6001E5399 /* LoginView.swift */; };
+		DE8D613C2DA067A6001E5399 /* OnBoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D612F2DA067A6001E5399 /* OnBoadingView.swift */; };
+		DE8D613D2DA067A6001E5399 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61302DA067A6001E5399 /* CustomTextField.swift */; };
+		DE8D613E2DA067A6001E5399 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61312DA067A6001E5399 /* SignupView.swift */; };
+		DE8D613F2DA067A6001E5399 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61342DA067A6001E5399 /* HomeScreenViewController.swift */; };
+		DE8D61402DA067A6001E5399 /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61362DA067A6001E5399 /* LandingScreenViewController.swift */; };
+		DE8D61412DA067A6001E5399 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61382DA067A6001E5399 /* LoginScreenViewController.swift */; };
+		DE8D61422DA067A6001E5399 /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61392DA067A6001E5399 /* SignupScreenViewController.swift */; };
+		DE8D61452DA067B6001E5399 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61442DA067B6001E5399 /* AuthViewModel.swift */; };
+		DE8D61472DA0681A001E5399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61462DA0681A001E5399 /* LaunchScreen.storyboard */; };
+		DE8D614B2DA0F693001E5399 /* CheckboxToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D614A2DA0F693001E5399 /* CheckboxToggle.swift */; };
+		DE8D614D2DA0F6F1001E5399 /* KeyboardIgnoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D614C2DA0F6F1001E5399 /* KeyboardIgnoring.swift */; };
+		DE8D614F2DA0F746001E5399 /* PasswordRequirementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D614E2DA0F746001E5399 /* PasswordRequirementsView.swift */; };
+		DE8D61512DA104EB001E5399 /* ProgressHUDUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61502DA104EB001E5399 /* ProgressHUDUtility.swift */; };
+		DE8D61532DA10B67001E5399 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61522DA10B67001E5399 /* OnboardingViewModel.swift */; };
+		DE8D61582DA190DA001E5399 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61572DA190DA001E5399 /* MainTabBarController.swift */; };
+		DE8D61612DA192C8001E5399 /* BookMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61602DA192C8001E5399 /* BookMarkViewController.swift */; };
+		DE8D61712DA1AF00001E5399 /* BookDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D616F2DA1AF00001E5399 /* BookDetailsTableViewCell.swift */; };
+		DE8D61722DA1AF00001E5399 /* BookDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8D61702DA1AF00001E5399 /* BookDetailsTableViewCell.xib */; };
+		DE8D61742DA2313D001E5399 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61732DA2313D001E5399 /* HomeViewModel.swift */; };
+		DE8D61762DA233C4001E5399 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D61752DA233C4001E5399 /* BookModel.swift */; };
+		DE8D617E2DA2515E001E5399 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D617D2DA2515E001E5399 /* ProgressIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18499CE028DDF89DC09C599D /* Pods-MedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedBook.debug.xcconfig"; path = "Target Support Files/Pods-MedBook/Pods-MedBook.debug.xcconfig"; sourceTree = "<group>"; };
+		26C43129EED409B5CF84D0C2 /* Pods_MedBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8D60E42DA06720001E5399 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8D60E72DA06720001E5399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE8D60E92DA06720001E5399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE8D60EB2DA06720001E5399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE8D60EE2DA06720001E5399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE8D60F12DA06720001E5399 /* MedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedBook.xcdatamodel; sourceTree = "<group>"; };
-		DE8D60F32DA06722001E5399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE8D60F62DA06722001E5399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8D60F82DA06722001E5399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8D60FF2DA06734001E5399 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8D61002DA06734001E5399 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE8D61042DA06746001E5399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8D61062DA06746001E5399 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		DE8D61072DA06746001E5399 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DE8D61082DA06746001E5399 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		DE8D61092DA06746001E5399 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DE8D610A2DA06746001E5399 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		DE8D61122DA06754001E5399 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		DE8D61132DA06754001E5399 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DE8D61142DA06754001E5399 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DE8D61192DA0675E001E5399 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DE8D611C2DA06768001E5399 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		DE8D611D2DA06768001E5399 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DE8D61222DA06776001E5399 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DE8D612C2DA067A6001E5399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8D612E2DA067A6001E5399 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DE8D612F2DA067A6001E5399 /* OnBoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoadingView.swift; sourceTree = "<group>"; };
+		DE8D61302DA067A6001E5399 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DE8D61312DA067A6001E5399 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		DE8D61342DA067A6001E5399 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		DE8D61362DA067A6001E5399 /* LandingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		DE8D61382DA067A6001E5399 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		DE8D61392DA067A6001E5399 /* SignupScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		DE8D61442DA067B6001E5399 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		DE8D61462DA0681A001E5399 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8D614A2DA0F693001E5399 /* CheckboxToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggle.swift; sourceTree = "<group>"; };
+		DE8D614C2DA0F6F1001E5399 /* KeyboardIgnoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardIgnoring.swift; sourceTree = "<group>"; };
+		DE8D614E2DA0F746001E5399 /* PasswordRequirementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRequirementsView.swift; sourceTree = "<group>"; };
+		DE8D61502DA104EB001E5399 /* ProgressHUDUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUDUtility.swift; sourceTree = "<group>"; };
+		DE8D61522DA10B67001E5399 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		DE8D61572DA190DA001E5399 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DE8D61602DA192C8001E5399 /* BookMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkViewController.swift; sourceTree = "<group>"; };
+		DE8D616F2DA1AF00001E5399 /* BookDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		DE8D61702DA1AF00001E5399 /* BookDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		DE8D61732DA2313D001E5399 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DE8D61752DA233C4001E5399 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		DE8D617D2DA2515E001E5399 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		F398789B0262F4E550437F2F /* Pods-MedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedBook.release.xcconfig"; path = "Target Support Files/Pods-MedBook/Pods-MedBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +101,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934861094DAAB3F240FEB060 /* Pods_MedBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F5C50372006AFB24C0EF18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C43129EED409B5CF84D0C2 /* Pods_MedBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E899E27BA43E886244333D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18499CE028DDF89DC09C599D /* Pods-MedBook.debug.xcconfig */,
+				F398789B0262F4E550437F2F /* Pods-MedBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE8D60DB2DA06720001E5399 = {
 			isa = PBXGroup;
 			children = (
 				DE8D60E62DA06720001E5399 /* MedBook */,
 				DE8D60E52DA06720001E5399 /* Products */,
+				75E899E27BA43E886244333D /* Pods */,
+				10F5C50372006AFB24C0EF18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +146,201 @@
 		DE8D60E62DA06720001E5399 /* MedBook */ = {
 			isa = PBXGroup;
 			children = (
-				DE8D60E72DA06720001E5399 /* AppDelegate.swift */,
-				DE8D60E92DA06720001E5399 /* SceneDelegate.swift */,
-				DE8D60EB2DA06720001E5399 /* ViewController.swift */,
-				DE8D60ED2DA06720001E5399 /* Main.storyboard */,
-				DE8D60F32DA06722001E5399 /* Assets.xcassets */,
-				DE8D60F52DA06722001E5399 /* LaunchScreen.storyboard */,
+				DE8D61212DA06776001E5399 /* Utility */,
+				DE8D61202DA06770001E5399 /* Services */,
+				DE8D611B2DA06768001E5399 /* Models */,
+				DE8D61182DA0675E001E5399 /* Managers */,
+				DE8D61112DA06753001E5399 /* Extensions */,
+				DE8D61292DA067A6001E5399 /* Views */,
+				DE8D61432DA067B6001E5399 /* ViewModels */,
+				DE8D61032DA06746001E5399 /* Assets */,
+				DE8D60FE2DA06734001E5399 /* App */,
 				DE8D60F82DA06722001E5399 /* Info.plist */,
+				DE8D61462DA0681A001E5399 /* LaunchScreen.storyboard */,
 				DE8D60F02DA06720001E5399 /* MedBook.xcdatamodeld */,
 			);
 			path = MedBook;
+			sourceTree = "<group>";
+		};
+		DE8D60FE2DA06734001E5399 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D60FF2DA06734001E5399 /* AppDelegate.swift */,
+				DE8D61002DA06734001E5399 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE8D61032DA06746001E5399 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61042DA06746001E5399 /* Assets.xcassets */,
+				DE8D61052DA06746001E5399 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DE8D61052DA06746001E5399 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61062DA06746001E5399 /* Poppins-Medium.ttf */,
+				DE8D61072DA06746001E5399 /* Poppins-ExtraBold.ttf */,
+				DE8D61082DA06746001E5399 /* Poppins-Regular.ttf */,
+				DE8D61092DA06746001E5399 /* Poppins-Bold.ttf */,
+				DE8D610A2DA06746001E5399 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE8D61112DA06753001E5399 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61122DA06754001E5399 /* UIFont+Extension.swift */,
+				DE8D61132DA06754001E5399 /* UIColor+Extension.swift */,
+				DE8D61142DA06754001E5399 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DE8D61182DA0675E001E5399 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61192DA0675E001E5399 /* APIManager.swift */,
+				DE8D614C2DA0F6F1001E5399 /* KeyboardIgnoring.swift */,
+				DE8D61502DA104EB001E5399 /* ProgressHUDUtility.swift */,
+				DE8D617D2DA2515E001E5399 /* ProgressIndicator.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DE8D611B2DA06768001E5399 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D611C2DA06768001E5399 /* CountryModel.swift */,
+				DE8D611D2DA06768001E5399 /* UserModel.swift */,
+				DE8D61752DA233C4001E5399 /* BookModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE8D61202DA06770001E5399 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE8D61212DA06776001E5399 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61222DA06776001E5399 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DE8D61292DA067A6001E5399 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D616E2DA1AEE5001E5399 /* Cells */,
+				DE8D612A2DA067A6001E5399 /* Storyboards */,
+				DE8D612D2DA067A6001E5399 /* SwiftUIViews */,
+				DE8D61322DA067A6001E5399 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE8D612A2DA067A6001E5399 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D612B2DA067A6001E5399 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DE8D612D2DA067A6001E5399 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D612E2DA067A6001E5399 /* LoginView.swift */,
+				DE8D612F2DA067A6001E5399 /* OnBoadingView.swift */,
+				DE8D61302DA067A6001E5399 /* CustomTextField.swift */,
+				DE8D61312DA067A6001E5399 /* SignupView.swift */,
+				DE8D614A2DA0F693001E5399 /* CheckboxToggle.swift */,
+				DE8D614E2DA0F746001E5399 /* PasswordRequirementsView.swift */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		DE8D61322DA067A6001E5399 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D615F2DA192AF001E5399 /* BookMark */,
+				DE8D61542DA19022001E5399 /* TabBar */,
+				DE8D61332DA067A6001E5399 /* Home */,
+				DE8D61352DA067A6001E5399 /* Landing */,
+				DE8D61372DA067A6001E5399 /* Auth */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE8D61332DA067A6001E5399 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61342DA067A6001E5399 /* HomeScreenViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE8D61352DA067A6001E5399 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61362DA067A6001E5399 /* LandingScreenViewController.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		DE8D61372DA067A6001E5399 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61382DA067A6001E5399 /* LoginScreenViewController.swift */,
+				DE8D61392DA067A6001E5399 /* SignupScreenViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DE8D61432DA067B6001E5399 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61442DA067B6001E5399 /* AuthViewModel.swift */,
+				DE8D61522DA10B67001E5399 /* OnboardingViewModel.swift */,
+				DE8D61732DA2313D001E5399 /* HomeViewModel.swift */,
+			);
+			name = ViewModels;
+			path = Assets/ViewModels;
+			sourceTree = "<group>";
+		};
+		DE8D61542DA19022001E5399 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61572DA190DA001E5399 /* MainTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DE8D615F2DA192AF001E5399 /* BookMark */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D61602DA192C8001E5399 /* BookMarkViewController.swift */,
+			);
+			path = BookMark;
+			sourceTree = "<group>";
+		};
+		DE8D616E2DA1AEE5001E5399 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D616F2DA1AF00001E5399 /* BookDetailsTableViewCell.swift */,
+				DE8D61702DA1AF00001E5399 /* BookDetailsTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8D60FB2DA06722001E5399 /* Build configuration list for PBXNativeTarget "MedBook" */;
 			buildPhases = (
+				6F025EB66804DCC98CF982BC /* [CP] Check Pods Manifest.lock */,
 				DE8D60E02DA06720001E5399 /* Sources */,
 				DE8D60E12DA06720001E5399 /* Frameworks */,
 				DE8D60E22DA06720001E5399 /* Resources */,
+				77D45EE170AC11CE760AFF22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,43 +403,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8D60F72DA06722001E5399 /* LaunchScreen.storyboard in Resources */,
-				DE8D60F42DA06722001E5399 /* Assets.xcassets in Resources */,
-				DE8D60EF2DA06720001E5399 /* Main.storyboard in Resources */,
+				DE8D610E2DA06746001E5399 /* Poppins-Regular.ttf in Resources */,
+				DE8D61472DA0681A001E5399 /* LaunchScreen.storyboard in Resources */,
+				DE8D610F2DA06746001E5399 /* Poppins-Bold.ttf in Resources */,
+				DE8D610B2DA06746001E5399 /* Assets.xcassets in Resources */,
+				DE8D61102DA06746001E5399 /* Poppins-SemiBold.ttf in Resources */,
+				DE8D613A2DA067A6001E5399 /* Main.storyboard in Resources */,
+				DE8D610D2DA06746001E5399 /* Poppins-ExtraBold.ttf in Resources */,
+				DE8D610C2DA06746001E5399 /* Poppins-Medium.ttf in Resources */,
+				DE8D61722DA1AF00001E5399 /* BookDetailsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F025EB66804DCC98CF982BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D45EE170AC11CE760AFF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedBook/Pods-MedBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE8D60E02DA06720001E5399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8D60EC2DA06720001E5399 /* ViewController.swift in Sources */,
+				DE8D613F2DA067A6001E5399 /* HomeScreenViewController.swift in Sources */,
+				DE8D611A2DA0675E001E5399 /* APIManager.swift in Sources */,
+				DE8D61582DA190DA001E5399 /* MainTabBarController.swift in Sources */,
+				DE8D61532DA10B67001E5399 /* OnboardingViewModel.swift in Sources */,
+				DE8D611E2DA06768001E5399 /* CountryModel.swift in Sources */,
+				DE8D61422DA067A6001E5399 /* SignupScreenViewController.swift in Sources */,
+				DE8D614B2DA0F693001E5399 /* CheckboxToggle.swift in Sources */,
+				DE8D61512DA104EB001E5399 /* ProgressHUDUtility.swift in Sources */,
+				DE8D61232DA06776001E5399 /* Utility.swift in Sources */,
+				DE8D61172DA06754001E5399 /* UIView+Extension.swift in Sources */,
+				DE8D614F2DA0F746001E5399 /* PasswordRequirementsView.swift in Sources */,
+				DE8D61402DA067A6001E5399 /* LandingScreenViewController.swift in Sources */,
 				DE8D60F22DA06720001E5399 /* MedBook.xcdatamodeld in Sources */,
-				DE8D60E82DA06720001E5399 /* AppDelegate.swift in Sources */,
-				DE8D60EA2DA06720001E5399 /* SceneDelegate.swift in Sources */,
+				DE8D61412DA067A6001E5399 /* LoginScreenViewController.swift in Sources */,
+				DE8D61012DA06734001E5399 /* AppDelegate.swift in Sources */,
+				DE8D61162DA06754001E5399 /* UIColor+Extension.swift in Sources */,
+				DE8D61612DA192C8001E5399 /* BookMarkViewController.swift in Sources */,
+				DE8D613C2DA067A6001E5399 /* OnBoadingView.swift in Sources */,
+				DE8D61152DA06754001E5399 /* UIFont+Extension.swift in Sources */,
+				DE8D61712DA1AF00001E5399 /* BookDetailsTableViewCell.swift in Sources */,
+				DE8D614D2DA0F6F1001E5399 /* KeyboardIgnoring.swift in Sources */,
+				DE8D613B2DA067A6001E5399 /* LoginView.swift in Sources */,
+				DE8D613E2DA067A6001E5399 /* SignupView.swift in Sources */,
+				DE8D61742DA2313D001E5399 /* HomeViewModel.swift in Sources */,
+				DE8D61452DA067B6001E5399 /* AuthViewModel.swift in Sources */,
+				DE8D611F2DA06768001E5399 /* UserModel.swift in Sources */,
+				DE8D61022DA06734001E5399 /* SceneDelegate.swift in Sources */,
+				DE8D613D2DA067A6001E5399 /* CustomTextField.swift in Sources */,
+				DE8D617E2DA2515E001E5399 /* ProgressIndicator.swift in Sources */,
+				DE8D61762DA233C4001E5399 /* BookModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE8D60ED2DA06720001E5399 /* Main.storyboard */ = {
+		DE8D612B2DA067A6001E5399 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE8D60EE2DA06720001E5399 /* Base */,
+				DE8D612C2DA067A6001E5399 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE8D60F52DA06722001E5399 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE8D60F62DA06722001E5399 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,19 +632,23 @@
 		};
 		DE8D60FC2DA06722001E5399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18499CE028DDF89DC09C599D /* Pods-MedBook.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMBY7658LT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,19 +664,23 @@
 		};
 		DE8D60FD2DA06722001E5399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F398789B0262F4E550437F2F /* Pods-MedBook.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMBY7658LT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
