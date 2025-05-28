@@ -29,6 +29,8 @@ struct CustomTextField: View {
                 .focused($isFocused)
                 .animation(.easeInOut(duration: 0.2), value: isFocused)
                 .keyboardType(.default)
+                .autocorrectionDisabled()
+                .textContentType(.oneTimeCode)
         } else {
             TextField(placeholder, text: $text)
                 .padding()
@@ -44,6 +46,7 @@ struct CustomTextField: View {
                 .animation(.easeInOut(duration: 0.2), value: isFocused)
                 .autocapitalization(.none)
                 .keyboardType(.emailAddress)
+                .autocorrectionDisabled()
         }
     }
 }
